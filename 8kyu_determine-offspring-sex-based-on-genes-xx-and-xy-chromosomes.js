@@ -10,9 +10,8 @@ If the sperm contains the X chromosome, return "Congratulations! You're going to
 
 */
 
-const chromosomeCheck = (str) => str === 'XX'
-	? `Congratulations! You're going to have a daughter.`
-	: `Congratulations! You're going to have a son.`;
+const chromosomeCheck = (str) =>
+	`Congratulations! You're going to have a ${str === 'XY' ? 'son' : 'daughter'}.`;
 
 // Simple tests:
 console.log(chromosomeCheck('XY'), " => Congratulations! You're going to have a son.");
