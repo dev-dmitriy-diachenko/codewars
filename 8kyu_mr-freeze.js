@@ -9,4 +9,4 @@ const MrFreeze = {};
 Object.freeze(MrFreeze);
 
 // Simple tests:
-console.log(Object.isFrozen(MrFreeze), ' => true')
+console.log(Object.isFrozen(MrFreeze), ' => true');

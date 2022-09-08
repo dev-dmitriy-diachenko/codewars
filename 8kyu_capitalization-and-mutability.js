@@ -13,4 +13,4 @@ const capitalizeWord = (word) => word[0].toUpperCase() + word.slice(1);
 // Simple tests:
 console.log(capitalizeWord('word'), ' => Word');
 console.log(capitalizeWord('i'), ' => I');
-console.log(capitalizeWord('glasswear'), ' => Glasswear')
+console.log(capitalizeWord('glasswear'), ' => Glasswear');

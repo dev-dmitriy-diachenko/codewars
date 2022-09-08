@@ -13,4 +13,4 @@ const websites = [];
 websites.push('codewars');
 
 // Simple tests:
-console.log(websites, websites.includes('codewars'))
+console.log(websites, websites.includes('codewars'));

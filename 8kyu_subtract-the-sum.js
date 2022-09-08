@@ -234,8 +234,8 @@ const SubtractSum = (n) => {
 		n -= [...n.toString()].reduce((a, b) => Number(a) + Number(b), 0);		
 	} while (!list[n]);
 
-	return list[n]
+	return list[n];
 }; 
 
 // Simple tests:
-console.log(SubtractSum(88), " => apple")
+console.log(SubtractSum(88), " => apple");

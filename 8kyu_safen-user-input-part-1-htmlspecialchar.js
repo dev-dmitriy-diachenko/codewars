@@ -42,4 +42,4 @@ console.log(
 console.log(
 	htmlspecialchars("<script>alert('Website Hacked!');</script>"),
 	" => &lt;script&gt;alert('Website Hacked!');&lt;/script&gt;"
-)
+);

@@ -19,8 +19,8 @@ text after  = "zzz"
 const contamination = (text, char) => text.replace(/./g, char);
 
 // Simple tests:
-console.log(contamination("abc","z"), " => zzz")
-console.log(contamination("","z"), " => ")
-console.log(contamination("abc",""), " => ")
-console.log(contamination("_3ebzgh4","&"), " => &&&&&&&&")
-console.log(contamination("//case"," "), " =>       ")
+console.log(contamination("abc","z"), " => zzz");
+console.log(contamination("","z"), " => ");
+console.log(contamination("abc",""), " => ");
+console.log(contamination("_3ebzgh4","&"), " => &&&&&&&&");
+console.log(contamination("//case"," "), " =>       ");
