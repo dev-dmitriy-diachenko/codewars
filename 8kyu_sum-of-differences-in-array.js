@@ -1,6 +1,6 @@
 /* Task:
 
-YYour task is to sum the differences between consecutive pairs in the array in descending order.
+Your task is to sum the differences between consecutive pairs in the array in descending order.
 
 Example
 [2, 1, 10]  -->  9
