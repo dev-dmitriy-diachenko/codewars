@@ -27,4 +27,4 @@ const generateRange = (min, max, step) => {
 };
 	
 // Simple tests:
-console.log(generateRange(2, 10, 2), ' => [2, 4, 6, 8, 10]')
+console.log(generateRange(2, 10, 2), ' => [2, 4, 6, 8, 10]');
