@@ -19,4 +19,4 @@ Good luck! Your team knows they can count on you!
 const formatMoney = (amount) => `$${amount.toFixed(2)}`;
 	
 // Simple tests:
-console.log(formatMoney(39.99) === '$39.99')
+console.log(formatMoney(39.99) === '$39.99');
