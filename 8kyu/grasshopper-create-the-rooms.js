@@ -6,24 +6,22 @@ You are creating an "Escape the room" game. The first step is to create a hash t
 */
 
 const rooms = {
-  room1: {
-    name: '',
-    description: '',
-    completed: '',
-  },
-  room2: {
-    name: '',
-    description: '',
-    completed: '',
-  },
-  room3: {
-    name: '',
-    description: '',
-    completed: '',
-  },
-}
-
-console.log(rooms.room1.name)
+	room1: {
+		name: '',
+		description: '',
+		completed: '',
+	},
+	room2: {
+		name: '',
+		description: '',
+		completed: '',
+	},
+	room3: {
+		name: '',
+		description: '',
+		completed: '',
+	},
+};
 	
 // Simple tests:
 const keys = Object.keys(rooms);
