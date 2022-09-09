@@ -1,0 +1,12 @@
+/* Task:
+
+This code should store "codewa.rs" as a variable called name but it's not working. Can you figure out why?
+
+*/
+
+const a = "code";
+const b = "wa.rs";
+let n = a + b;
+	
+// Simple tests:
+console.log(n === 'codewa.rs');
