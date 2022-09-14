@@ -12,7 +12,6 @@ For an undefined slope (division by 0), return undefined . Note that the "undefi
 
 	 Assume that [a,b,c,d] and the answer are all integers (no floating numbers!). Slope: https://en.wikipedia.org/wiki/Slope
 
-
 */
 
 const slope = ([x1, y1, x2, y2]) =>
