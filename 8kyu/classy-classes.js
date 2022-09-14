@@ -6,7 +6,12 @@ Your task is to complete this Class, the Person class has been created. You must
 
 class Person {
   constructor(name, age) {
-    this.info = `${name}s age is ${age}`;  
+    this.name = name;
+    this.age = age;
+  };
+  
+  get info() {
+    return `${this.name}s age is ${this.age}`;
   };
 };
 
