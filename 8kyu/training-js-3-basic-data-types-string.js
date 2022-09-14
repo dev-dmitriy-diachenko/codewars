@@ -14,6 +14,7 @@ misson 2: After misson 1 finished. you should click "Attempt" to see my three qu
 If everything is right, click "Submit" again to submit your code pass this kata.
 
 */
+
 let a1 = "A", a2 = "a", b1 = "B", b2 = "b", c1 = "C", c2 = "c", d1 = "D", d2 = "d", e1 = "E", e2 = "e", n1 = "N", n2 = "n";
 
 const Dad = () => d1 + a2 + d2;
