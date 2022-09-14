@@ -29,10 +29,9 @@ Warrior.prototype.toString = function(){
     return "Hi! my name's "+this.name();
 }
 
-
 // Simple tests:
-const albert = new Warrior("Albert")
-const boris  = new Warrior("Boris")
+const albert = new Warrior("Albert");
+const boris = new Warrior("Boris");
 
 console.log(albert.toString() === "Hi! my name's Albert");
 console.log(albert.name() === "Albert");
