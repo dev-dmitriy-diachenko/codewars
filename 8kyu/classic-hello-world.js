@@ -23,4 +23,3 @@ class Solution{
 };
 
 // Simple tests:
-console.log(logRecord.indexOf("Hello World!") !== -1);
