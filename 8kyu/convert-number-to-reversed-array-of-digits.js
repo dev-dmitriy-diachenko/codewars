@@ -4,7 +4,7 @@ Given a random non-negative number, you have to return the digits of this number
 
 */
 
-const digitize = n => [...n.toString()].reverse().map(Number);
+const digitize = (n) => [...n.toString()].reverse().map(Number);
 
 // Simple tests:
 console.log(digitize(35231), " => [1, 3, 2, 5, 3]");
