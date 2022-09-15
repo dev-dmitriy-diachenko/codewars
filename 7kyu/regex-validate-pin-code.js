@@ -12,7 +12,7 @@ Examples (Input --> Output)
 
 */
 
-const validatePIN = (pin) => /^(\d{4}$|\d{6}$)/g.test(pin)
+const validatePIN = (pin) => /^(\d{4}$|\d{6}$)/g.test(pin);
 
 // Simple tests:
 console.log(validatePIN("1") === false);
