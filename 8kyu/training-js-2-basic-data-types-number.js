@@ -1,21 +1,10 @@
 /* Task:
 
-Wolves have been reintroduced to Great Britain. You are a sheep farmer, and are now plagued by wolves which pretend to be sheep. Fortunately, you are good at spotting them.
+I've written five function equal1,equal2,equal3,equal4,equal5, defines six global variables v1 v2 v3 v4 v5 v6, every function has two local variables a,b, please set the appropriate value for the two variables(select from v1--v6), making these function return value equal to 100. the function equal1 is completed, please refer to this example to complete the following functions.
 
-Warn the sheep in front of the wolf that it is about to be eaten. Remember that you are standing at the front of the queue which is at the end of the array:
+When you have finished the work, click "Run Tests" to see if your code is working properly.
 
-[sheep, sheep, sheep, sheep, sheep, wolf, sheep, sheep]      (YOU ARE HERE AT THE FRONT OF THE QUEUE)
-   7      6      5      4      3            2      1
-If the wolf is the closest animal to you, return "Pls go away and stop eating my sheep". Otherwise, return "Oi! Sheep number N! You are about to be eaten by a wolf!" where N is the sheep's position in the queue.
-
-Note: there will always be exactly one wolf in the array.
-
-Examples
-Input: ["sheep", "sheep", "sheep", "wolf", "sheep"]
-Output: "Oi! Sheep number 1! You are about to be eaten by a wolf!"
-
-Input: ["sheep", "sheep", "wolf"]
-Output: "Pls go away and stop eating my sheep"
+In the end, click "Submit" to submit your code pass this kata.
 
 */
 
