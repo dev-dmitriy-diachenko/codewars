@@ -11,8 +11,7 @@ All inputs will be integers. Please return an integer. Round down.
 */
 
 const dutyFree = (normPrice, discount, hol) =>
-	Math.floor(hol / normPrice / discount * 100)
-
+	Math.floor(hol / normPrice / discount * 100);
 
 // Simple tests:
 console.log(dutyFree(12, 50, 1000) === 166);
