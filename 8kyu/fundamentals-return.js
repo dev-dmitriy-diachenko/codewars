@@ -30,7 +30,6 @@ const exponent = (a, b) => a ** b;
 
 const subt = (a, b) => a - b;
 
-
 // Simple tests:   
 console.log(add(1, 2) === 3);
 console.log(multiply(1, 2) === 2);
