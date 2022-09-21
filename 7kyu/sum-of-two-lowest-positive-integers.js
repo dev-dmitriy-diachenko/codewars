@@ -1,14 +1,10 @@
 /* Task:
 
-Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
 
-Examples:
+For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
 
-Input: 42145 Output: 54421
-
-Input: 145263 Output: 654321
-
-Input: 123456789 Output: 987654321
+[10, 343445353, 3453445, 3453545353453] should return 3453455.
 
 */
 
