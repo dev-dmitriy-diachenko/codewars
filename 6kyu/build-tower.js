@@ -19,6 +19,7 @@ And a tower with 6 floors looks like this:
   " ********* ", 
   "***********"
 ]
+
 Go challenge Build Tower Advanced once you have finished this :)
 
 */
@@ -30,7 +31,7 @@ const towerBuilder = (nFloors) => {
   while (nFloors) {
     tower[nFloors - 1] = ' '.repeat(spaces) + '*'.repeat(nFloors * 2 - 1) + ' '.repeat(spaces);
     nFloors--;
-    spaces++
+		spaces++;
 	};
 
   return tower;
