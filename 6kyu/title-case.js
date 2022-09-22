@@ -38,9 +38,9 @@ const titleCase = (title, minorWords) => {
 
   const minusWords = minorWords.toLowerCase().split(' ');
 
-  return words
-    .map((word, i) => isMinusWord(word, i) ? word : capitalizeFirst(word))
-    .join(' ')
+	return words
+		.map((word, i) => isMinusWord(word, i) ? word : capitalizeFirst(word))
+		.join(' ');
 };
 
 // Simple tests:
