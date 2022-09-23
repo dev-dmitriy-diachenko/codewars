@@ -7,12 +7,12 @@ All inputs will be valid IPv4 addresses in the form of strings. The last address
 */
 
 const ipsBetween = (start, end) => {
-  const convertIP = ((ipString) => ipString.split('.')
-    .map((octet) => Number(octet).toString(2))
-    .map((binary) => '0'.repeat(8 - binary.length) + binary).join(''));
+	const convertIP = ((ipString) => ipString.split('.')
+		.map((octet) => Number(octet).toString(2))
+		.map((binary) => '0'.repeat(8 - binary.length) + binary).join(''));
 
-  return parseInt(convertIP(end), 2) - parseInt(convertIP(start), 2)
-}
+	return parseInt(convertIP(end), 2) - parseInt(convertIP(start), 2);
+};
 		
 // Simple tests:
 console.log(ipsBetween("150.0.0.0", "150.0.0.1") === 1);
