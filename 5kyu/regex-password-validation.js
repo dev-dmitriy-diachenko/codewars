@@ -10,7 +10,7 @@ You need to write regex that will validate a password to make sure it meets the 
 
 */
 
-const REGEXP =  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[A-Za-z\d]{6,}$/
+const REGEXP = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[A-Za-z\d]{6,}$/;
 		
 // Simple tests:
 console.log(REGEXP.test('fjd3IR9') === true);
