@@ -29,7 +29,7 @@ const firstNonRepeatingLetter = (s) => {
 	const regExp = new RegExp(firstUnique, 'gi')
 
 	return s.match(regExp)[0];
-};``
+};
 		
 // Simple tests:
 console.log(firstNonRepeatingLetter('a') === 'a');
