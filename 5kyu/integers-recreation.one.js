@@ -35,7 +35,7 @@ const listSquared = (m, n) => {
 	return res;
 };
 
-const divisors = num => {
+const divisors = (num) => {
 	const arr = [];
 	
 	for (let i = 1; i <= num; i++) {
